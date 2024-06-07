@@ -13,10 +13,8 @@ function Subarray(arr, target) {
             return true;
         }
     }
-    // If targetSum is not equal to the target, return false
     return false;
 }
-// Example usage:
 const arr = [4, 2, 7, 1, 9, 5];
 const target = 17;
 console.log(Subarray(arr, target));  
